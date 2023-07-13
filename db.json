@@ -1,0 +1,34 @@
+{
+  "flights": [
+    {
+      "event": "Appointment with the farmer",
+      "dayAndTime": "6th Feb",
+      "reminder": false,
+      "id": 10
+    },
+    {
+      "event": "Visit to China",
+      "dayAndTime": "5th of Jan",
+      "reminder": false,
+      "id": 11
+    },
+    {
+      "event": "Visit to the Zoo",
+      "dayAndTime": "6th of Dec",
+      "reminder": false,
+      "id": 11
+    },
+    {
+      "event": "Hiking Game",
+      "dayAndTime": "5th Of Dec",
+      "reminder": true,
+      "id": 12
+    },
+    {
+      "event": "American tour",
+      "dayAndTime": "5th Jan",
+      "reminder": true,
+      "id": 13
+    }
+  ]
+}

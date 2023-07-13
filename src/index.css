@@ -1,13 +1,158 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(0,0,0,0.5);
 }
+
+.container{
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 3px solid steelblue; 
+  padding: 25px;
+  border-radius: 5px;
+  background-color: lightgray;
+  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: blue;
+  padding: 5px;
+  color: hotpink;
+  border-radius: 5px;
+  border-top-right-radius: 55px;
+  margin-right: 10px;
+  font-size: x-small;
+}
+
+.btn{
+  /* display: inline-block; */
+  background: hotpink;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  /* margin: 5px; */
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  /* width: 100%; */
+  border-bottom-left-radius: 55px;
+}
+
+
+.btn:focus{
+  outline: none;
+}
+
+.btn:active{
+  transform: scale(0.90);
+}
+
+.btn-block{
+  margin-bottom: 10px;
+
+}
+
+.flight{
+  background-color: #f4f4f4;
+  margin: 5px;
+  padding: 3px 20px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.flight p{
+  font-size: small;
+}
+
+.flight.reminder{
+  border-left: 5px solid blue;
+}
+
+.flight h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: medium;
+}
+
+.add-form{
+  margin-bottom: 40px;
+}
+
+.form-control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control{
+  margin: 20px 0;
+}
+
+/* .form-control label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+.form-control input{
+  outline: none;
+  border: none;
+  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.form-control input{
+  width: 90%;
+  height: 40px;
+  margin:5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  /* flex: 2; */
+}
+
+.form-control-check {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.form-control-check label{
+  /* flex: 1; */
+}
+
+.form-control-check input{
+  /* flex: 2; */
+  height: 20px;
+}
+
+/* footer{
+  margin-top: 30px;
+  text-align: center;
+} */
+
+.two_divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+} 
